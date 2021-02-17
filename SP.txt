@@ -1,0 +1,10 @@
+1. Understanding Ephemeral Storage for Serverless Analytics (ATC '18)
+Topic: Key insights to guide the design of an ephemeral cloud storage system
+Main Idea: 1) The storage system should have high elasticity.
+           2) The storage service should auto-scale resources based on load.
+           3) The storage system can provide low data durability guarantees.
+           4) Storing both small and large objects should be cost and performance efficient.
+           
+2. Pocket: Elastic Ephemeral Storage for Serverless Analytics (OSDI '18)
+Topic: 
+Main Idea: 1)
