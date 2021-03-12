@@ -16,3 +16,10 @@ Topic: Dynamically adjusting Bloom filters based on hotness information
 Main Idea: 1) Dynamically allocating Bloom filters based on data hotness.
            2) Inheriting the hotness information during compaction.
            3) Optimizing in-memory management to dynamically adjust Bloom filters with negligible CPU overhead. 
+
+4. WiscKey: Separating Keys from Values in SSD-conscious Storage (FAST '16)
+Topic: Implementing an SSD-optimized key-value store
+Main Idea: 1) Separating keys from values.
+           2) Using the parallel random-read characterstic of SSD devices.
+           3) Utilizing unique crash-consistency and garbage-collection techniques.
+           4) Removing the LSM-tree log without sacrificing consistency.
